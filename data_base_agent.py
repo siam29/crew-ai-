@@ -17,7 +17,7 @@ llm = LLM(
 # Define the Detector Agent
 detector = Agent(
     role="Anomaly Detector",
-    goal="Monitor and detect unusual access patterns in travel data.",
+    goal="Monitor and detect unusual access patterns in data.",
     backstory=(
         "You are responsible for analyzing logs of access to data, "
         "identifying patterns that deviate from normal behavior, "
